@@ -1,10 +1,7 @@
 package com.ecs160.hw1;
 
 
-import java.util.ArrayList;
-
-
-public class Thread<T> {
+public class Thread {
     private Post post;
     private Replies replies;
 

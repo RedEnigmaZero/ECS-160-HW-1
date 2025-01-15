@@ -49,8 +49,8 @@ facets = {
 
 features = {
     $type,
-    tag,        # For tags
-    uri         # For links
+    tag,        For tags
+    uri         For links
 }
 
 index = {

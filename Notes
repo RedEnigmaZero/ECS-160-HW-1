@@ -1,0 +1,101 @@
+feed = {
+    thread
+}
+
+thread = {
+    post,
+    replies
+}
+
+post = {
+    uri,
+    cid,
+    author,
+    record,
+    replyCount,
+    repostCount,
+    likeCount,
+    quoteCount,
+    indexedAt,
+    viewer,
+    labels
+}
+
+author = {
+    did,
+    handle,
+    displayName,
+    avatar,
+    associated,
+    viewer,
+    labels,
+    createdAt
+}
+
+record = {
+    $type,
+    createdAt,
+    facets,
+    langs,
+    text,
+    reply,
+    embed
+}
+
+facets = {
+    features,
+    index
+}
+
+features = {
+    $type,
+    tag,        # For tags
+    uri         # For links
+}
+
+index = {
+    byteStart,
+    byteEnd
+}
+
+reply = {
+    parent,
+    root
+}
+
+parent = {
+    cid,
+    uri
+}
+
+root = {
+    cid,
+    uri
+}
+
+viewer = {
+    muted,
+    blockedBy,
+    threadMuted,
+    embeddingDisabled
+}
+
+replies = {
+    threadViewPost
+}
+
+threadViewPost = {
+    post,
+    replies
+}
+
+embed = {
+    $type,
+    external
+}
+
+external = {
+    uri,
+    title,
+    description
+}

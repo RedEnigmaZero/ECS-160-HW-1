@@ -1,13 +1,22 @@
 package com.ecs160.hw1;
 
 
-import java.util.ArrayList;
+public class Feed {
+    private Thread thread;
 
+    // Constructor
+    public Feed(Thread thread) {
+        this.thread = thread;
+    }
 
-public class feed<T> {
-    protected ArrayList<T> threads = new ArrayList<T>();
+    // Getters and Setters
+    public Thread getThread() {
 
-    public feed(T thread){
-        threads.add(thread);
+        return thread;
+    }
+
+    public void setThread(Thread thread) {
+
+        this.thread = thread;
     }
 }

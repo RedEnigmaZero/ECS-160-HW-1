@@ -6,9 +6,9 @@ public class Thread {
     private Replies replies;
 
     // Constructor
-    public Thread(Post post, Replies replies) {
+    public Thread(Post post) {
         this.post = post;
-        this.replies = replies;
+        this.replies = null;
     }
 
     // Getters and Setters

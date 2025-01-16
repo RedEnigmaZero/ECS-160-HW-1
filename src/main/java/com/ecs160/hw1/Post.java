@@ -15,5 +15,20 @@ public class Post {
     private Viewer viewer;
     private List<String> labels;
 
+    public Post() {
+        this.uri = "empty";
+    }
+
     // Getters and Setters
+    public String getUri() {
+        return uri;
+    }
+
+    public void setUri(String uri) {
+        this.uri = uri;
+    }
+
+    public String getCid() {
+        return cid;
+    }
 }
